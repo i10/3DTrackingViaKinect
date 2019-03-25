@@ -1,0 +1,8 @@
+prefix=/home/shams3049/catkin_ws/install
+
+Name: siftgpu
+Description: Description of siftgpu
+Version: 0.1.0
+Cflags: -I/home/shams3049/catkin_ws/install/include
+Libs: -L/home/shams3049/catkin_ws/install/lib -lsiftgpu
+Requires: 

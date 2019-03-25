@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="simtrack_nodes" pkg="simtrack_nodes" type="simtrack_nodes">
+  <param name="visualization" type="int" value="1" />
+  <param name="start_stop_recording" type="bool" value="False" />
+  <param name="save_object_poses" type="bool" value="False" />
+  <param name="save_image" type="bool" value="False" />
+  <param name="save_depth" type="bool" value="False" />
+  <param name="save_optical_flow" type="bool" value="False" />
+</node>
+\endverbatim
+

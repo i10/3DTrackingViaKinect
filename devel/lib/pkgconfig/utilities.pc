@@ -1,0 +1,8 @@
+prefix=/home/shams3049/catkin_ws/devel
+
+Name: utilities
+Description: Description of utilities
+Version: 0.1.0
+Cflags: -I/home/shams3049/catkin_ws/src/simtrack/utilities/include -I/usr/local/cuda-9.0/include -I/usr/include/hdf5/serial
+Libs: -L/home/shams3049/catkin_ws/devel/lib -lutilities
+Requires: 

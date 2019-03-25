@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~visualization" : \b [int] Output visualization min: 0, default: 1, max: 3
+- \b "~start_stop_recording" : \b [bool] Control data recording min: False, default: False, max: True
+- \b "~save_object_poses" : \b [bool] Record object poses min: False, default: False, max: True
+- \b "~save_image" : \b [bool] Record RGB image min: False, default: False, max: True
+- \b "~save_depth" : \b [bool] Record depth min: False, default: False, max: True
+- \b "~save_optical_flow" : \b [bool] Record optical flow min: False, default: False, max: True
+

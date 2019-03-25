@@ -1,0 +1,8 @@
+prefix=/home/shams3049/catkin_ws/devel
+
+Name: kinect2_registration
+Description: Description of kinect2_registration
+Version: 0.0.1
+Cflags: -I/home/shams3049/catkin_ws/src/iai_kinect2/kinect2_registration/include -I/usr/local/cuda-9.0/include
+Libs: -L/home/shams3049/catkin_ws/devel/lib -lkinect2_registration -l:/usr/lib/x86_64-linux-gnu/libOpenCL.so
+Requires: 

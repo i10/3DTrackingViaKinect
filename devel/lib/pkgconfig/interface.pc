@@ -1,0 +1,8 @@
+prefix=/home/shams3049/catkin_ws/devel
+
+Name: interface
+Description: Description of interface
+Version: 0.1.0
+Cflags: -I/home/shams3049/catkin_ws/src/simtrack/interface/include
+Libs: -L/home/shams3049/catkin_ws/devel/lib -linterface
+Requires: low_level_vision pose_estimation cv_bridge

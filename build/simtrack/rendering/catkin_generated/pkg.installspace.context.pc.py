@@ -1,0 +1,8 @@
+# generated from catkin/cmake/template/pkg.context.pc.in
+CATKIN_PACKAGE_PREFIX = ""
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/shams3049/catkin_ws/install/include;/usr/include/OGRE/Overlay;/usr/include/OGRE;/usr/include/eigen3;/opt/ros/kinetic/include".split(';') if "/home/shams3049/catkin_ws/install/include;/usr/include/OGRE/Overlay;/usr/include/OGRE;/usr/include/eigen3;/opt/ros/kinetic/include" != "" else []
+PROJECT_CATKIN_DEPENDS = "resource_retriever;kdl_parser".replace(';', ' ')
+PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lrendering;-l:/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;-l:/usr/lib/x86_64-linux-gnu/libOgreMain.so;-l:/usr/lib/x86_64-linux-gnu/libpthread.so;-l:/usr/lib/x86_64-linux-gnu/OGRE-1.9.0/RenderSystem_GL.so;-l:/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;-l:/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;-l:/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;-l:/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;-l:/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;-l:/opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0".split(';') if "-lrendering;-l:/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;-l:/usr/lib/x86_64-linux-gnu/libOgreMain.so;-l:/usr/lib/x86_64-linux-gnu/libpthread.so;-l:/usr/lib/x86_64-linux-gnu/OGRE-1.9.0/RenderSystem_GL.so;-l:/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;-l:/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;-l:/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;-l:/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;-l:/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;-l:/opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0" != "" else []
+PROJECT_NAME = "rendering"
+PROJECT_SPACE_DIR = "/home/shams3049/catkin_ws/install"
+PROJECT_VERSION = "0.1.0"
