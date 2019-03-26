@@ -3,7 +3,15 @@
 
 This is an ROS-based research project that would allow a user to draw in mid-air using a 3d-printed custom object e.g., a white board marker. Two main components of this project are Simtrack and iai_kinect. They are used as is with minor configurational changes. 
 
-Demo: [3D Tracking via Kinect](https://youtu.be/-OLFaq7mcT0)
+Screenshots
+-----------
+
+	![][image-1]
+   
+  	![][image-2]
+   
+  	![][image-3]
+
 
 Background Information
 ----------------------------
@@ -178,3 +186,7 @@ rosrun interface cmd_line_generate_sift_model `pwd`/src/simtrack/data/object_mod
 rosrun interface cmd_line_generate_sift_model `pwd`/src/simtrack/data/object_models/ros_groovy/ros_groovy.obj
 rosrun interface cmd_line_generate_sift_model `pwd`/src/simtrack/data/object_models/ros_hydro/ros_hydro.obj
 ```
+
+[image-1]: https://github.com/i10/3DTrackingViaKinect/blob/master/images/stabilo-3d-models.png "Stabilo pen 3D model"
+[image-2]: https://github.com/i10/3DTrackingViaKinect/blob/master/images/stabilo-pen-detected.png "Detected stabilo pen"
+[image-3]: https://github.com/i10/3DTrackingViaKinect/blob/master/images/white-board-marker.jpg "Detected white board marker"
