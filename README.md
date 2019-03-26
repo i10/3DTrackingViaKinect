@@ -6,11 +6,14 @@ This is an ROS-based research project that would allow a user to draw in mid-air
 Screenshots
 -----------
 
-	![][image-1]
+The idea was to allow users to use custom pens and track them using the ROS app. Here is a model of stabilo pen we created: 
+![][image-1]
+ 
+...and the tracking in the app: 
+![][image-2]
    
-  	![][image-2]
-   
-  	![][image-3]
+This could also be done with multiple objects at the same time (with different textures). The user can also just upload a 3d model of a real world object and then track it.
+![][image-3]
 
 
 Background Information
